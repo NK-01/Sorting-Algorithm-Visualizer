@@ -104,9 +104,4 @@ Button(frame_with_options, text="CREATE ARRAY", command=Generate_array, padx=9, 
 canvas_for_array = Canvas(root, width=746, height=370, bg="#b8d5cd", highlightbackground="#b8d5cd")
 canvas_for_array.grid(row=2, column=1, padx=23, pady=20)
 
-"""
-#F4A896 -> Pinkish
-#358597 -> greenish bluish
-#39FF13 -> bright green
-"""
 root.mainloop()
