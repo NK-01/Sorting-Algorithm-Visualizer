@@ -63,8 +63,7 @@ def draw_rectangular_elements(array, elements_color):
         canvas_for_array.create_text(x0, y0, anchor=SW, text=str(array[i]))
 
     root.update_idletasks()
-    # 370 749
-
+    
 # Frame designing
 frame_with_options = Frame(root, width=750, height = 200, background = "#249ea0", highlightbackground = "#249eA0", padx = 30, pady = 25)
 frame_with_options.grid(row=1, column=1, pady=4)
