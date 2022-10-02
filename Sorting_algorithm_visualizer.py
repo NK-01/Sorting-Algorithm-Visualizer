@@ -28,10 +28,7 @@ def sorting():
         insertion_sort(array, draw_rectangular_elements, sorting_speed.get())
     elif select_algorithm.get() == "Selection Sort":
         selection_sort(array, draw_rectangular_elements, sorting_speed.get())
-    elif select_algorithm.get() == "Merge Sort":
-        merge_sort(array, draw_rectangular_elements, sorting_speed.get())
-    elif select_algorithm.get() == "Quick Sort":
-        quick_sort(array, draw_rectangular_elements, sorting_speed.get())
+
 # Creating array
 def Generate_array():
     global array
